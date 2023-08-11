@@ -1,13 +1,13 @@
 import './App.css';
-import Weather from './weather';
+import Quotes from './Quotes';
 
 function App() {
   return (
     <div className="App">
       <div className='git'>
-        <a href="https://github.com/NITISHGOYAL26/Weather" target='_blank'><i className='fa-brands fa-github' style={{color:"#ffffff"}}></i></a>
+      <a href="https://github.com/navdeeepkaur/project2-quotes-generator" target="_blank"><i class="fa-brands fa-github"></i></a>
       </div>
-      <Weather />
+      <Quotes/>
     </div>
   );
 }
